@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 3em;
+            letter-spacing: 5px;
+        }
+        .header h2 {
+            font-size: 1.2em;
+            color: gray;
+            font-weight: 400;
+            margin-top: -10px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: #333;
+        }
+        .contact a, .skills li, .work-experience li {
+            display: block;
+            margin: 5px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills, .education {
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ANUJA JACOB</h1>
+            <h2>COLLEGE STUDENT</h2>
+        </div>
+
+        <div class="content">
+            <!-- Left Column -->
+            <div>
+                <div class="section contact">
+                    <h3>Contact</h3>
+                    <a href="jacobanuja2005@gmail.com">jacobanuja2005@gmail.com</a>
+                    <a href="https://github.com/gh-anuja432" target="_blank">GitHub: gh-anuja432</a>
+                    <!--<a href="https://linkedin.com/in/linkedin-username" target="_blank">LinkedIn: linkedin-username</a>-->
+                </div>
+                <div class="section skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="section education">
+                    <h3>Education</h3>
+                    <p><strong>BACHELOR'S IN COMPUTER SCIENCE</strong></p>
+                    <p>ST XAVIER'S COLLEGE, JAIPUR</p>
+                    <p>2023-2026</p>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <div class="section about">
+                    <h3>About</h3>
+                    <p>I'm an undergraduating bachelor's in computer science student and 
+                        I'm looking forward to opportunities where I can apply and develop web development and data analysis skills while making meaningful contributions.</p>
+                </div>
+                <div class="section work-experience">
+                    <h3>Work Experience</h3>
+                    <h4>Job Title</h4>
+                    <p>Company Name | 2008 - 2010</p>
+                    <p>Describe what you did in this position with one summary sentence and no more than 3 bullet points:</p>
+                    <ul>
+                        <li>Cool accomplishment</li>
+                        <li>Cool accomplishment</li>
+                        <li>Cool accomplishment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
